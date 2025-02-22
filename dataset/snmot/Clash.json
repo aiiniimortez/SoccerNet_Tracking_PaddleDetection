@@ -240,6 +240,23 @@
             "udp": true,
             "mtu": 1280,
             "dialer-proxy": "🇮🇷 Warp - IPv6"
+        },
+        {
+            "name": "🇺🇸 Proton - IPv6",
+            "type": "wireguard",
+            "ip": "10.2.0.2",
+            "private-key": "6CJBN0V8zugN5+6D68rbMM6qIz0Paow5VBLeEMy0MG8=",
+            "server": "146.70.202.114",
+            "port": 51820,
+            "public-key": "emDk8M7Wj/jgZapGgPA7wyiWRaLimr09vk3jpw5PIyY=",
+            "allowed-ips": [
+                "0.0.0.0/1",
+                "128.0.0.0/1"
+            ],
+            "reserved": "AAAA",
+            "udp": true,
+            "mtu": 1280,
+            "dialer-proxy": "🇮🇷 Warp - IPv6"
         }
     ],
     "proxy-groups": [
@@ -255,7 +272,8 @@
                 "🇳🇱 ShadowSocks - IPv6",
                 "🇳🇱 Proton - IPv4",
                 "🇺🇸 Proton - IPv4",
-                "🇳🇱 Proton - IPv6"
+                "🇳🇱 Proton - IPv6",
+                "🇺🇸 Proton - IPv6"
             ]
         },
         {
@@ -273,7 +291,8 @@
                 "🇳🇱 ShadowSocks - IPv6",
                 "🇳🇱 Proton - IPv4",
                 "🇺🇸 Proton - IPv4",
-                "🇳🇱 Proton - IPv6"
+                "🇳🇱 Proton - IPv6",
+                "🇺🇸 Proton - IPv6"
             ]
         }
     ],
